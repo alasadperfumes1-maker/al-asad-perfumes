@@ -1,46 +1,52 @@
-# 🌿 Al Asad Perfumes -- Client Project
+# 🌿 Al Asad Perfumes -- Official Website
 
-A modern, responsive fragrance showcase website built using **Next.js
-(App Router)** and **Tailwind CSS**.\
-This project was developed as a complete client delivery including
-branding, deployment, and domain integration.
+Welcome to the official repository of **Al Asad Perfumes** --- a modern
+fragrance showcase website built with performance, elegance, and
+scalability in mind.
 
 ------------------------------------------------------------------------
 
-## 🚀 Project Overview
+## 🚀 Live Website
 
-Al Asad Perfumes is a product showcase website designed to:
+🌐 Official Domain: https://al-asad-perfumes.com\
+(Connected with SSL & Production Deployment)
 
--   Display fragrance collections (Men, Women, Unisex)
+------------------------------------------------------------------------
+
+## 💼 Project Overview
+
+This website was professionally developed to:
+
+-   Present Men, Women & Unisex fragrance collections
 -   Provide dynamic product detail pages
--   Enable direct WhatsApp ordering
--   Maintain a premium black & gold luxury theme
--   Be fully responsive (Mobile-First Design)
+-   Enable direct WhatsApp ordering integration
+-   Maintain a premium black & gold brand identity
+-   Ensure fully responsive (Mobile‑First) performance
+-   Deliver clean, scalable frontend architecture
 
 ------------------------------------------------------------------------
 
-## 🛠 Tech Stack
+## 🛠 Technology Stack
 
--   **Next.js 16 (App Router)**
+-   **Next.js (App Router)**
 -   **React**
 -   **Tailwind CSS**
--   **Vercel Deployment**
+-   **Static Export Deployment**
 -   **Custom Domain Integration**
--   **Dynamic Routing (Frontend-based)**
--   **Reusable Component Architecture**
+-   **Component-Based Architecture**
+-   **SEO Metadata Optimization**
 
 ------------------------------------------------------------------------
 
-## ✨ Key Features
+## ✨ Core Features
 
--   🔹 Premium Hero Section
--   🔹 Category-based Product Filtering
--   🔹 Dynamic Product Detail Pages
--   🔹 WhatsApp Order Integration
--   🔹 Sticky Global WhatsApp Button
--   🔹 SEO Metadata Configuration
--   🔹 Clean Folder Architecture
--   🔹 Responsive Design Across Devices
+-   Premium Hero Section Design\
+-   Category-Based Filtering\
+-   Dynamic Product Routing\
+-   WhatsApp Order Button Integration\
+-   Sticky Global WhatsApp CTA\
+-   Clean Modular Folder Structure\
+-   Optimized Performance Build
 
 ------------------------------------------------------------------------
 
@@ -50,7 +56,6 @@ Al Asad Perfumes is a product showcase website designed to:
      ├── app/
      │    ├── page.js
      │    ├── collection/
-     │    ├── product/
      │    ├── about/
      │    └── contact/
      ├── components/
@@ -60,32 +65,43 @@ Al Asad Perfumes is a product showcase website designed to:
 
 ------------------------------------------------------------------------
 
-## 🔐 Ownership & Deployment
+## 🔐 Deployment & Configuration
 
--   Hosting configured on client account
--   Domain connected and SSL secured
--   Repository maintained with structured version control
--   Client-ready handover completed
-
-------------------------------------------------------------------------
-
-## 🎯 Learning & Outcome
-
-This project represents:
-
--   Real client delivery workflow
--   Branding alignment with business requirements
--   Clean component-based frontend architecture
--   Production-ready deployment setup
+-   Production-ready static export configuration
+-   Custom domain mapping
+-   SSL secured hosting
+-   Structured repository management
 
 ------------------------------------------------------------------------
 
-## 📌 Author
+## 👨‍💻 Developed & Delivered By
 
-[**Muhammad Hassaan**](https://linkedin.com/in/muhammadhassaan026)
+This project was architected, designed, structured, and deployed by:
+
+### Muhammad Hassaan
+
 Full Stack Web Developer\
-Specializing in modern React & Next.js solutions
+Specializing in Modern React & Next.js Solutions
+
+🔗 LinkedIn: https://linkedin.com/in/muhammadhassaan026\
+🔗 GitHub: https://github.com/HassaanMemon026
 
 ------------------------------------------------------------------------
 
-© 2026 -- Project built with precision and professionalism.
+## 📈 Professional Collaboration
+
+If you're viewing this repository and require:
+
+-   Business Website Development\
+-   Brand Showcase Website\
+-   Next.js Frontend Architecture\
+-   Custom UI with Tailwind CSS\
+-   Deployment & Domain Configuration
+
+You may connect directly via LinkedIn:
+
+👉 https://linkedin.com/in/muhammadhassaan026
+
+------------------------------------------------------------------------
+
+© 2026 Al Asad Perfumes -- Website Developed with Professional Standards
