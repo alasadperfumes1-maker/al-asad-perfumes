@@ -1,0 +1,37 @@
+# Vercel Web Analytics Implementation
+
+## Summary
+Successfully installed and configured Vercel Web Analytics for this Next.js App Router project.
+
+## Changes Made
+
+### 1. Installed Dependencies
+- Added `@vercel/analytics` package (version ^1.6.1) using npm
+- Updated `package.json` to include the new dependency
+- Updated `package-lock.json` with resolved dependencies
+
+### 2. Modified Files
+- **Frontend/src/app/layout.js**
+  - Added import: `import { Analytics } from "@vercel/analytics/next"`
+  - Added `<Analytics />` component inside the `<body>` tag, after the Footer component
+  - Preserved all existing code structure and styling
+
+### 3. Implementation Details
+This project uses the App Router pattern (Next.js 16.1.6), so the Analytics component was added to the root layout file at `Frontend/src/app/layout.js`. The component is placed at the end of the body tag to ensure it doesn't interfere with the application's rendering or user experience.
+
+### 4. Verification Steps Completed
+- ✅ Package installed successfully (npm install @vercel/analytics)
+- ✅ Build completed successfully (npm run build)
+- ✅ No TypeScript errors (verified during build)
+- ✅ All static pages generated correctly
+- ✅ Lock files updated appropriately
+
+## How It Works
+The `<Analytics />` component from `@vercel/analytics/next` will automatically:
+- Track page views
+- Collect Web Vitals data
+- Send analytics data to Vercel when the application is deployed
+- Work seamlessly in both development and production environments
+
+## Next Steps
+Once deployed to Vercel, analytics data will be available in the Vercel dashboard under the Analytics tab for this project.
