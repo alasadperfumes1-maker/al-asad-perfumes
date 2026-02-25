@@ -1,21 +1,32 @@
 "use client";
 
 import { useSearchParams } from "next/navigation";
+import { useEffect, useState } from "react";
 import { products } from "@/app/data/products";
 import ProductDetailClient from "@/components/ProductDetailClient";
+import Link from "next/link";
 
-export default function ProductPage() {
+export default function CollectionPage() {
     const searchParams = useSearchParams();
-    const slug = searchParams.get("slug");
+    const [product, setProduct] = useState(null);
 
-    const product = products.find(
-        (item) => item.slug === slug
-    );
+    useEffect(() => {
+        const slug = searchParams.get("slug");
+
+        if (slug) {
+            const foundProduct = products.find(
+                (item) => item.slug === slug
+            );
+            setProduct(foundProduct || null);
+        }
+    }, [searchParams]);
 
     if (!product) {
         return (
             <div className="bg-[#0B0B0B] min-h-screen flex items-center justify-center text-white">
-                Product not found.
+                <span>Select a product from the </span>
+                <Link href="/collection" className="text-blue-400 hover:underline">&nbsp;Collection</Link> .
+
             </div>
         );
     }
