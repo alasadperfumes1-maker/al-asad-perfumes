@@ -1,12 +1,12 @@
 "use client";
 
+import { Suspense, useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
-import { useEffect, useState } from "react";
 import { products } from "@/app/data/products";
 import ProductDetailClient from "@/components/ProductDetailClient";
 import Link from "next/link";
 
-export default function CollectionPage() {
+function ProductContent() {
     const searchParams = useSearchParams();
     const [product, setProduct] = useState(null);
 
@@ -32,4 +32,12 @@ export default function CollectionPage() {
     }
 
     return <ProductDetailClient product={product} />;
+}
+
+export default function CollectionPage() {
+    return (
+        <Suspense fallback={<div className="bg-[#0B0B0B] min-h-screen" />}>
+            <ProductContent />
+        </Suspense>
+    );
 }
