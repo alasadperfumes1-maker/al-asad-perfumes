@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import Footer from "@/components/Footer";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -24,6 +25,7 @@ export default function RootLayout({ children }) {
         <WhatsAppButton />  
         <Footer />
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
